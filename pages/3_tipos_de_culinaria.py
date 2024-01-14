@@ -88,7 +88,7 @@ exchange_rates = {
 #
 #LOADING DATA
 #
-df_raw = pd.read_csv('../data/zomato (1).csv', encoding='ISO-8859-1')
+df_raw = pd.read_csv('data/zomato (1).csv', encoding='ISO-8859-1')
 df_raw["Cuisines"] = df_raw.loc[:, "Cuisines"].apply(lambda x: x.split(",")[0] if isinstance(x, str) else x)
 df_raw.drop_duplicates(inplace=True)
 #
