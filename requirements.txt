@@ -1,6 +1,5 @@
 altair==5.2.0
 inflection==0.5.1
-ipython==8.19.0
 jupyterlab==4.0.10
 numpy==1.26.2
 pandas==2.1.4
